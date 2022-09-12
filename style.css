@@ -40,3 +40,8 @@ p.log{
     font-size: 20px;
     margin-left: 35%;
 }
+div#senhaid{
+    margin-top: 1em;
+    text-align: center;
+    color: red;
+}

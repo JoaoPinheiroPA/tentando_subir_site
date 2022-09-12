@@ -1,7 +1,7 @@
 var a = window.document.getElementById('button');
 a.addEventListener('click',clicar);
 var pag_01 = window.document.querySelector('h1#pagina_01')
-//var div = window.document.getElementById('senhaid')
+var div = window.document.getElementById('senhaid')
 let nome_ = 'LUANA GIOVANNA BARROS COSTA';
 let senha_ = '5332';
 function clicar(){
@@ -13,7 +13,7 @@ function clicar(){
     if(nome == nome_ && senha == senha_){
         getUserPage(log);
     }else{
-        senhaid.innerHTML = (`Você errou.`);
+        div.innerHTML = (`⚠️ Nome ou Senha incorreto ⚠️`);
     }
 }
 function getUserPage(log){
