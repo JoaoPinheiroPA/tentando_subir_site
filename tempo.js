@@ -12,6 +12,7 @@ const const_senha = '5332'
 //Calculo da diferença//
 let diffInMs = new Date(atual) - new Date(inicio)
 let diasJuntos = ((diffInMs) / (1000*60*60*24))
+//let diasJuntos = 365*30
 //console.log(`Estamos a: ${diasJuntos} dias`)
 
 var c = window.document.querySelector('div#coracao')
